@@ -1,0 +1,9 @@
+Have you ever wondered what that logo in the corner of your desktop represents? Or what makes the mouse and windows appear on your
+screen? It's called an OPERATING SYSTEM, and it's the software you interact with every time you use your computer or smartphone. It makes
+the applications on your computer communicate with the hardware. Every computer has an operating system, whether it's obvious or not.
+Some operating systems have extensive graphical interfaces, while others seem like little more that a text command-line.
+
+Use the links at the top of the screen to learn more about some of the most popular operating systems out there: Microsoft's "Windows",
+Apple's "Mac OS", and the community-run "Linux" family of operating systems. Afterwards, you can have some fun in the "Extras" section.
+If you want to get even more information on this fascinating topic, check out the "Sources" link, where all of the information in this website
+came from!

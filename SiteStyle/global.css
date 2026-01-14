@@ -1,0 +1,421 @@
+@font-face {
+font-family: 'SigmarRegular';
+src: url('../Fonts/SigmarOne-webfont.eot');
+src: url('../Fonts/SigmarOne-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../Fonts/SigmarOne-webfont.woff') format('woff'),
+    url('../Fonts/SigmarOne-webfont.ttf') format('truetype'),
+    url('../Fonts/SigmarOne-webfont.svg#SigmarRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'ArchitectsDaughterRegular';
+src: url('../Fonts/ArchitectsDaughter-webfont.eot');
+src: url('../Fonts/ArchitectsDaughter-webfont.eot?#iefix')  
+           format('embedded-opentype'),
+    url('../Fonts/ArchitectsDaughter-webfont.woff') format('woff'),
+    url('../Fonts/ArchitectsDaughter-webfont.ttf') format('truetype'),
+    url('../Fonts/ArchitectsDaughter-webfont.svg#ArchitectsDaughterRegular')
+           format('svg');
+font-weight: normal;
+font-style: normal;
+}
+body {
+    background-color: black;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    background: #000000 url(background.jpeg) repeat right bottom;
+    background-size: contain;
+}
+header {
+   text-align: center;
+   margin: 0 0 30px 0; 
+   background: green no-repeat center bottom; 
+   height: 182px;
+   padding: 0px;
+}
+header h1 {
+   color: black;
+   font-size: 80px;
+   margin: 0;
+   padding: 15px 0 23px 0;
+}
+#tagline {
+   color: green;
+   font-size: 18px;
+   font-weight: bold;
+   margin: 0px;
+   background: black url(nav-gradient.png) repeat-x 0px -25px;  
+   height: 12px;
+   padding: 5px;
+   line-height: 11px;
+   text-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+p {
+   color: green;
+   font-family: SeugoeUI;
+   font-size: 22px;
+   margin-left: 20px;
+}
+h1, h2, h3 {
+   font-family: Impact;
+   font-weight: normal;
+}
+h1 {
+   color: green;
+   font-size: 2em;
+}
+h2 {
+   color: red;
+   font-size: 1.5em;
+}
+h3 {
+   color: green;
+   font-size: 2em;
+}
+em {
+   font-size: 20px;
+   font-style: normal;
+   color: red;
+}
+.second_paragraph em {
+   color: black;
+}
+i {
+   font-size: 25px;
+   color: purple;
+}
+strong {
+   font-size: 25px;
+   font-weight: normal;
+   color: red;
+}
+b {
+   font-size: 30px;
+   color: purple;
+}
+#MainContent {
+   float: left;
+   width: 70%;
+   margin: 25px 5px 30px 25px;
+   padding: 15px;
+   border: 2px solid #CCC;
+   border-radius: 25px;
+   box-shadow: 8px 8px 7px rgba(0,0,0,0.6);
+   background-color: black;
+} 
+article {
+   font-weight: bold;
+   color: white;
+   clear: both;
+   margin: 40px;
+   padding: 20px;
+   background-color: blue;
+   background-image: url(article-background.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+   border-radius: 25px;
+}
+article h1 {
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+article h2 {
+   font-size: 1.8em;
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+article p {
+    color: white;
+}
+article a:link, article a:visited {
+   color: white;
+}
+aside {
+   float: right;
+   width: 150px;
+   margin: 0 0 15px 25px;
+   padding: 15px;
+   font-size: smaller;
+   border-bottom: 2px solid white;
+   border-left: 1px solid white;
+}
+.annotated {
+   position: relative;
+}
+.annotated ul {
+   list-style: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   font-size: 16px;
+}
+.annotated li {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   padding: 5px;
+   text-indent: -9999px;
+}
+.annotated:hover li {
+   border: 2px solid black;
+   background-color:rgba(255,255,255,0.8);
+   border-radius: 25px;
+   box-shadow: 8px 8px 7px rgba(0,0,0,0.6);
+}
+.annotated li:hover {
+   background-color: white;
+   text-indent: 0px;
+   cursor: default;
+}
+figure {
+   float: left;
+   text-align: center;
+   margin: 0px 15px 20px 0px;
+   padding: 0;
+}
+figcaption {
+   text-align: center;
+   font-weight: bold;
+   font-size: 10px;
+}
+figure img {
+   border: 10px solid #000000;
+}
+footer {
+   clear: both;
+   font-weight: bold;
+   color: green;
+   font-family: Ariel;
+   font-size: 18px;
+   margin: 0;
+   padding: 5px;
+   background: black url(footer-gradient.png) repeat-x 0px -25px;
+   text-align: center;
+}
+video {
+   float: left;
+   margin: 0 15px 10px 0;
+   padding: 10px;
+   border: 4px solid #CCCCCC;
+   background-color: black;
+   border-radius: 25px;
+}
+#taskbox {
+   width: 600px;
+}
+.block1, .block2 {
+   width: 120px;
+   height: 120px;
+   margin: 10px;
+   padding: 5px;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 18px;
+   float: left;
+   border: 2px solid #CCCCCC;
+   border-radius: 25px;
+}
+.block1 {
+   color: #717B32;
+   background-color: rgb(113,123,50);
+   opacity: 0.4;
+}
+.block2 {
+   color: #BBE1C1;
+   background-color: rgba(187,225,193,0.4);
+}
+.block1:hover {
+   color: black;
+   opacity: 1.0;
+   cursor: default;
+}
+.block2:hover {
+   color: black;
+   background-color: rgba(187,225,193,1);
+   cursor: default;
+}
+#gradient1,#gradient2,#gradient3,#gradient4,#gradient5,#gradient6 {   
+   width: 150px;
+   height: 150px;
+   float: left;
+   margin: 5px; 
+   padding: 5px;
+   border: 2px solid #CCCCCC;
+   border-radius: 25px;
+   box-shadow: 8px 8px 7px rgba(0,0,0,0.6); 
+   font-weight: bold;
+   text-align: center;
+   font-size: large;
+}
+#gradient1 {
+   background-image:url("fish.png"),
+                    linear-gradient(red, yellow);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#gradient2 {
+   background-image:url("fish.png"),
+                    linear-gradient(to bottom right, purple,red,yellow,green);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#gradient3{
+      background-image:url("fish.png"),
+                    linear-gradient(35deg, yellow 20%,green 20%,green 50%,yellow 50%, yellow 80%, green 80%);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#gradient4 {
+   background-image:url("fish.png"),
+                    radial-gradient(pink,blue);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#gradient5 {
+      background-image:url("fish.png"),
+                    radial-gradient(at bottom,yellow,red,purple);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#gradient6 {
+      background-image:url("fish.png"),
+                    radial-gradient(at top left,yellow 20%,orange 30%,red 40%,green 50%,purple 80%);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#fish1,#fish2,#fish3,#fish4 {
+   width: 100px;
+   height: 80px;
+   float: left;
+   margin: 5px; 
+   padding: 5px;
+   border: 2px solid #CCCCCC;
+   border-radius: 25px;
+   box-shadow: 8px 8px 7px rgba(0,0,0,0.6); 
+   font-weight: bold;
+   text-align: center;
+   font-size: 12px;
+   background-color: #FFFFFF;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: bottom;
+}
+#fish1 {
+   background-image:url("fish1.jpg");
+}
+#fish2 {
+   background-image:url("fish2.jpg");
+}
+#fish3 {
+   background-image:url("fish3.jpg");
+}
+#fish4 {
+   background-image:url("fish4.jpg");
+}
+#fish1:hover {
+   transform: translate(80px,50px);
+   -webkit-transform: translate(80px,50px);
+}
+#fish2:hover {
+   transform: rotate(40deg);
+   -webkit-transfrom: rotate(40deg);
+}
+#fish3:hover {
+   transform: scale(2,3);
+   -webkit-transform: scale(2,3);
+}
+#fish4:hover {
+   transform: skew(20deg,40deg);
+   -webkit-transform: skew(20deg,40deg);
+}
+.drop-cap>p:first-letter {
+   font-size: 100px;
+   color: green;
+   float: left;
+   padding: 0;
+   margin: 0px 5px 5px 0px;
+   line-height: 65px;
+   text-shadow: 3px 3px 7px black;
+}
+.second-paragraph>p:first-letter {
+   font-size: 50px;
+   font-style: normal;
+   color: green;
+}
+#Lobster table {
+   width: 200px;
+   float: left;
+   margin: 0 10px 10px 0;
+}
+#Lobster td {
+   text-align: center;
+}
+#Lobster p:first-line {
+   font-size: 18px;
+   background-color: red;
+   font-family: ArchitectsDaughterRegular;
+}
+#Lobster td:nth-of-type(7) {
+   background-color: red;
+   font-family: ArchitectsDaughterRegular;
+   color: black;
+}
+#Lobster tr:nth-of-type(odd) {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+#sidebar {
+   font-family: ArchitectsDaughterRegular;
+   color: white;
+   font-weight: bold;
+   line-height: 1.0;
+   width: 180px;
+   float: right;
+   padding: 3px 3px;
+   margin: 15px 5px 5px 5px;
+   text-shadow: 3px 3px 5px black;
+}
+#sidebar h2 {
+   text-align: center;
+   color: white;
+   text-shadow: 3px 3px 5px black;
+}
+li.button {
+   list-style: none;
+   text-align: center;
+   width: 25px;
+   font-size: 23px;
+   margin: 5px;
+   padding: 10px;
+   border: 2px solid #CCCCCC;
+   border-radius: 25px;
+   background-color: #717B32;
+   display: inline-block;
+}
+.button p.phrase {
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    top: 530px;
+    right: 0px;
+    width: 180px;
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+}
+li.button:hover {
+   background: none;
+   cursor: pointer;
+}
+.button:hover p.phrase {
+   display: block;
+}

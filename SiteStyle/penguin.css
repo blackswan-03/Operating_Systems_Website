@@ -1,0 +1,79 @@
+/* CSS for penguin.html */
+
+/* These starting CSS rules will override some of the fancy styles present in global.css */
+#MainContent p {
+    font-family: inherit;
+    font-size: inherit;
+    margin-left: inherit;
+}
+
+#MainContent h1 {
+    font-family: Tahoma;
+    font-weight: bold;
+    color: inherit;
+}
+
+#MainContent em {
+    font-size: inherit;
+    font-style: inherit;
+    color: inherit;
+    font-style: italic;
+}
+
+#MainContent i {
+    font-size: inherit;
+    color: inherit;
+    font-style: italic;
+}
+
+#MainContent strong {
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+}
+
+#MainContent b {
+    font-size: inherit;
+    font-weight: bold;
+    color: inherit;
+}
+/* End of starting CSS rules */
+#PenguinContent div {
+    width: 100%;
+    clear: both;
+}
+#PenguinContent div p {
+    width: 180px;
+    margin-right: 20px;
+    float: left;
+    font-size: 13px;
+}
+#PenguinContent div > h1 {
+    color: purple;
+    font-size: 30px;
+}
+#PenguinContent h1 ~ p {
+    color: blue;
+}
+#PenguinContent i {
+    color: green;
+    font-style: normal;
+}
+#PenguinContent b {
+    color: green;
+    font-style: normal;
+    font-size: 16px;
+}
+#PenguinContent h1 {
+    font-variant: small-caps;
+    margin: 0;
+    padding: 0;
+}
+#PenguinContent div em {
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+}
+#PenguinContent em ~ strong {
+    font-size: 16px;
+}

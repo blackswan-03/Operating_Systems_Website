@@ -1,0 +1,27 @@
+Mac OS is the operating system used in Apple computers (called Macintoshes), and is a popular alternative to Windows, for users who don't 
+want to live with Windows's shortcomings. The original Mac OS was introduced in 1984 by Steve Jobs, CEO of Apple Inc. Apple is often 
+credited with inventing the Graphical User Interface (GUI), but there is some dispute over this matter. In 2001, the tenth edition of Mac OS 
+(Called "OS X") used a new core (or "kernel") that is based on an old but popular OS called "Unix", and have continued using this design to 
+the present day. Mac OS carries about 9% of the OS market share. That may seem small, but when you consider Windows's near 90% market 
+share, it seems a little less underwhelming. Apple is still considered one of the most sucessful and influential computer companies in the 
+world, even after Jobs's death in 2011. (Fun fact: The operating system used on Apple's iPhones, called "iOS" is based on the Mac system)
+
+Pros:
+
+Users of Mac computers are often proud to say that their computers work much faster and more reliably than Windows computers, mostly 
+due to the Unix code base, which doesn't utilize a registry. Also, since Mac OS is not nearly as popular as Windows, it is much more resistant 
+to viruses and other malware. Mac computers also tend to be very easy to use, and the learning curve for people coming from Windows is 
+often not very difficult. (Many people feel that once you learn it, Mac OS is even easier to use than Windows!) Apple also oversees the 
+manufacturing of all the hardware of their products, so that the software and hardware work in perfect harmony. And, since Mac computers 
+are also generally thought of as better than other computers, there is a strong level of prestige associated with owning a Mac computer.
+
+Cons:
+
+Despite what die-hard Apple fans will tell you, Mac OS isn't necessarily the best OS out there. As most applications are designed to work with 
+Windows, it is usually necessary for Apple users to have a Windows computer in addition to their Mac. Apple does provide some special 
+applications specially designed for Mac OS, and many of these apps work very well, but they, along with many file formats used in Mac OS, 
+are incompatible with other operating systems. In fact, this is a common complaint with Apple; they force you to use only their products, 
+their software, and their repair stores. This makes many people feel restricted about what they can do with their computer, or they feel they 
+can't fix anything themselves. This makes Mac OS less appealing for some. Perhaps the biggest drawback about Mac computers is the price 
+they command. To get the level of prestige associated with the Apple name, you usually have to pay top dollar. While a good Windows PC 
+will usually cost you only a few hundred dollars, Macs can cost several thousand dollars!

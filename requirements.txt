@@ -1,0 +1,16 @@
+Your final project should incorporate these new features based on your second-semester work:
+
+    Include three new web pages with a dynamic navigation menu between them
+    Demonstrate several new HTML5 elements, including <nav> and <footer>
+    Use several new CSS3 styles and selectors
+    Show multi-media (video and/or sounds) on at least one page
+    Include JavaScript and jQuery behavior on at least one page
+
+Your website should also have:
+
+    At least one page per team member (more are permitted and encouraged)
+    A common header, footer, navigation bar, and brand throughout every page
+    Original content created by your team (including headlines, text, and optionally graphics and videos).
+    Researched content found online. All external content should be clearly marked or quoted as such, with a URL reference to the original site embedded near the content on the web page.
+    Hyperlinks to all pages in your site, and optionally hyperlinks to external sites related to your topic
+    Mark the name of each team member that was primarily responsible for each page somewhere in the visible footer or <head> <meta> elements.

@@ -1,0 +1,22 @@
+Pretty much everyone who uses computers is familiar with the most popular consumer-oriented operating system out there: Microsoft 
+Windows. Windows was introduced by Bill Gates, CEO of the Microsoft company, in 1985. The original version, Windows 1.0, was not 
+well-received, but as time wore on and new versions were introduced, people accepted it more and more until it was used in almost 90%
+of all desktop and laptop computers worldwide. Therefore, it's safe to assume that you're probably viewing this website on a Windows 
+computer right now! It was Windows that led to Bill Gates becoming the richest man in the world: a title he held until 2017.
+
+Pros:
+
+Obviously, Windows's biggest pro is that it's SO popular! Almost all applications are designed to work for Windows, and for that reason 
+alone, it's huge market dominance will probably continue for the forseeable future. Also, Windows is a very easy OS to use: You just point 
+your mouse at whatever you want to open, click, and you're there! This is another reason it's so popular; there's practially ZERO learning
+curve required. Finally, it's automatically installed on practically every computer made today, meaning you don't have to pay for your OS!
+
+Cons:
+
+Just because something is popular doesn't mean it's the best. Windows is notorious for certain problems, sometimes to the point that many 
+computer aficionados hate Windows and refuse to use it. One of the reasons most often cited for why people hate Windows is the slow 
+speed. This is because of the way Windows is designed. It contains something called a "registry" that gets cluttered up over time, and that 
+slows your computer down. Another major problem with Windows is security. Having everything designed around your operating system 
+may be neat, but that means most viruses and other malware is designed for your OS, too. This means that Windows is the most vunerable of
+the operating systems discussed here to bad software and hackers. Microsoft does offer updates for additional protection, but these updates
+require the computer to reboot and can be time-consuming.

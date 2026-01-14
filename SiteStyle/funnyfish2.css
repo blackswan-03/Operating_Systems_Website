@@ -1,0 +1,61 @@
+
+.funnyfish2 {
+    width: 150px;
+    height: 200px;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+}
+button {
+    width: 100px;
+    clear: both;
+    background: #717B32 url(nav-gradient.png) repeat-x 0px -25px;  
+}
+
+p {
+    font-size: 16px;
+}
+
+#funnyfish2_1,#funnyfish2_2,#funnyfish2_3,#funnyfish2_4,#funnyfish2_5,#funnyfish2_6,#funnyfish2_7 {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin: 5px; 
+    padding: 5px;
+    border:2px solid #CCC;
+    border-radius:25px;
+    box-shadow: 8px 8px 7px rgba(0,0,0,0.6); 
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    position: absolute;
+    top:50px;
+    left:10px;
+}
+
+#funnyfish2_1 {
+    background-image:url("fish1.jpg");
+}
+#funnyfish2_2 {
+    background-image:url("fish2.jpg");
+}
+#funnyfish2_3 {
+    background-image:url("fish3.jpg");
+}
+#funnyfish2_4 {
+    background-image:url("fish4.jpg");
+}
+#funnyfish2_5 {
+    background-image:url("fish5.jpg");
+}
+#funnyfish2_6 {
+    background-image:url("fish6.jpg");
+}
+#funnyfish2_7 {
+    background-image:url("fish7.jpg");
+}

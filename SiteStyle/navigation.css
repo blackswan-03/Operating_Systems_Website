@@ -1,0 +1,82 @@
+nav {
+    background: black repeat-x 0px -15px; 
+}
+nav>ul {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding-top: 8px; 
+    line-height: 100%;
+    width: 800px;
+}
+nav li {
+    width: 130px;
+    margin: 0;
+    padding: 0 0 8px 0; 
+    float: left;
+    position: relative;
+    list-style: none;
+    z-index: 10;
+}
+nav a {
+   padding: 5px 0px; 
+   margin: 0;
+   font-weight: bold;
+   font-size: 14px;
+   font-variant: normal;
+   color: black;
+   display: block;
+   text-decoration: none;
+   text-shadow: 0 1px 0 rgba(255,255,255,1); 
+}
+nav>ul>li>a {
+   text-shadow: 2px 2px 3px rgba(0,0,0,0.6); 
+   color: green;
+}
+nav li:hover {
+    background-color: #EDEFEE;
+}
+nav>ul>li {
+    border-radius: 10px 10px 0 0;
+}
+nav>ul>li:hover {
+    border-radius: 10px 10px 0 0;
+    box-shadow: 8px 8px 7px rgba(0,0,0,0.6);
+}
+nav li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    position: absolute;
+    background: #EDEFEE url(nav-drop.png) no-repeat bottom;
+    background-size: 100%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 8px 8px 7px rgba(0,0,0,0.6);
+    text-shadow: none;
+}
+nav li ul li {
+    margin: 0;
+    padding: 2px 0;
+}
+nav li:hover > ul {
+    display: block;
+}
+nav li:hover {
+    color: green;
+}
+nav ul li ul li:hover {
+    background-color: rgba(0,0,0,0.0);
+}
+nav li:hover li a:hover {
+    color: #717B32;
+}
+nav>ul>li>ul>li:last-child {
+    border-radius: 0 0 10px 10px;
+}
+.first-level:hover {
+    border-radius: 10px 10px 10px 10px;
+}
+.first-level a:hover {
+    color: #717B32;
+}
